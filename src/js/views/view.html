@@ -1,0 +1,30 @@
+<div>
+    <oj-form-layout> 
+        <oj-button type="submit" on-oj-action="{{requestFunction}}">View</oj-button>
+    </oj-form-layout> 
+    <div class="toggle" style="opacity:0;">
+        <div class="oj-flex">
+            <div class="oj-flex-item oj-sm-12">
+                <label>SSN:</label><label data-bind="text:ssn"></label>
+            </div>
+
+            <div class="oj-flex-item oj-sm-8">
+                <label>Name:</label>
+                <span><oj-bind-text data-bind="text:name"></oj-bind-text></span>
+            </div>
+
+            <div class="oj-flex-item oj-sm-8">
+                <label>Email:</label><label data-bind="text:email"></label>
+            </div>
+
+            <div class="oj-flex-item oj-sm-8">
+                <label>DOB:</label><label data-bind="text:dob"></label>
+            </div>
+
+            <div class="oj-flex-item oj-sm-8">
+                <label>City:</label><label data-bind="text:city"></label>
+            </div>
+
+        </div>
+    </div>
+</div>
